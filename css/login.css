@@ -1,0 +1,261 @@
+body{
+    margin:0;
+    padding:0;
+}
+/*头部导航栏*/
+.header
+{
+    background-color: #F2F2F2;
+    border-top: 2px solid #dd5862;
+    height: 50px;
+}
+.header-content
+{
+    width: 960px;
+    margin: auto;
+}
+.icon-logo
+{
+    width: 32px;
+    height:32px;
+    background: url("../img/icon-common.png") no-repeat 0 -300px;
+    position: absolute;
+    margin: -8px 0px 0px 0px;
+}
+.content
+{
+    margin-left: 30px;
+}
+.navi
+{
+    list-style: none;
+    float: left;
+    width: 50px;
+    font-size: 16px;
+}
+.header-a:link
+{
+    text-decoration: none;
+    color: #000000;
+}
+.header-a:visited
+{
+    color: #000000;
+}
+.header-a:hover
+{
+    color: #dd5862;
+}
+.header-a:active
+{
+    color: #dd5862;
+}
+.login
+{
+    float: right;
+    font-size: 12px;
+}
+.login a
+{
+    text-decoration: none;
+    color: #000;
+}
+.login a:hover
+{
+    color: #dd5862;
+}
+
+/*轮播框*/
+#body
+{
+    width: 960px;
+    margin:auto;
+}
+.slides
+{
+    /*opacity: 1;*/
+    margin-top:30px;
+    display: none;
+}
+.tab
+{
+    margin:auto;
+}
+.tab-li
+{
+    display: inline-block;
+    width:7px;
+    height:7px;
+    margin:3px;
+    background:rgba(105,105,105,0.5);
+    border-radius:50%;
+    cursor: pointer;
+}
+.tab-li:hover
+{
+    background-color: #dd5862;
+}
+.on
+{
+    display: inline-block;
+    width:7px;
+    height:7px;
+    margin:3px;
+    background:rgba(221,88,98,0.7);
+    border-radius:50%;
+    cursor: pointer;
+}
+.prev
+{
+    position:absolute;
+    left:230px;
+    top:210px;
+    width:41px;
+    height:69px;
+    background: url("../img/icon-slides.png") 82px;
+}
+.prev:hover
+{
+    background: url("../img/icon-slides.png") ;
+}
+.next
+{
+    position:absolute;
+    right:230px;
+    top:210px;
+    width: 40px;
+    height:69px;
+    background: url("../img/icon-slides.png") 41px;
+}
+.next:hover
+{
+    background: url("../img/icon-slides.png") 123px;
+}
+/*底部信息栏*/
+.bottom
+{
+    background-color: #222;
+    height: 280px;
+}
+.bottom-content
+{
+    width: 960px;
+    margin:0 auto;
+    padding-top: 20px;
+}
+.about
+{
+    width:380px;
+    color: white;
+    float: left;
+}
+.about-content
+{
+    font-size: 14px;
+}
+.APP
+{
+    float: left;
+    color: white;
+    width:305px;
+}
+.app-content
+{
+    font-size: 14px;
+}
+.app-font
+{
+    padding-left: 25px;
+}
+.app-iphone
+{
+    width: 20px;
+    height: 20px;
+    background: url("../img/icon-common.png") 0 -90px;
+    position: absolute;
+}
+.app-android
+{
+    width: 20px;
+    height: 20px;
+    background: url("../img/icon-common.png") 0 -30px;
+    position: absolute;
+}
+.app-wp
+{
+    width: 20px;
+    height: 20px;
+    background: url("../img/icon-common.png") 0 -60px;
+    position: absolute;
+}
+.sns
+{
+    color: white;
+    float: right;
+}
+.sns-title
+{
+    margin-right: 0px;
+}
+.sns-qq
+{
+    width: 20px;
+    height: 20px;
+    background: url("../img/icon-common.png") -110px -270px;
+    position: absolute;
+    right: 300px;
+}
+.sns-wechat
+{
+    width: 20px;
+    height: 20px;
+    background: url("../img/icon-common.png") 0 -270px;
+    position: absolute;
+    right: 270px;
+}
+.sns-weibo
+{
+    width: 20px;
+    height: 20px;
+    background: url("../img/icon-common.png") 0 -210px;
+    position: absolute;
+    right: 240px;
+}
+.sns-douban
+{
+    width: 20px;
+    height: 20px;
+    background: url("../img/icon-common.png") 0 -240px;
+    position: absolute;
+    right: 205px;
+}
+.sns-content
+{
+    font-size:14px;
+}
+.sns-icon
+{
+    width:136px;
+    height:20px;
+    background: url("../img/icon-common.png");
+    position: absolute;
+    right:205px;
+}
+.bottom-a:link
+{
+    text-decoration: none;
+    color: white;
+}
+.bottom-a:visited
+{
+    color: white;
+}
+.bottom-a:hover
+{
+    color: #dd5862;
+}
+.bottom-a:active
+{
+    color: #dd5862;
+}
+

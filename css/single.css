@@ -1,0 +1,320 @@
+body{
+    margin:0;
+    padding:0;
+}
+/*头部导航栏*/
+.header
+{
+    background-color: #F2F2F2;
+    border-top: 2px solid #dd5862;
+    height: 50px;
+}
+.header-content
+{
+    width: 960px;
+    margin: auto;
+}
+.icon-logo
+{
+    width: 32px;
+    height:32px;
+    background: url("../img/icon-common.png") no-repeat 0 -300px;
+    position: absolute;
+    margin: -8px 0px 0px 0px;
+}
+.content
+{
+    margin-left: 30px;
+}
+.navi
+{
+    list-style: none;
+    float: left;
+    width: 50px;
+    font-size: 16px;
+}
+.header-a:link
+{
+    text-decoration: none;
+    color: #000000;
+}
+.header-a:visited
+{
+    color: #000000;
+}
+.header-a:hover
+{
+    color: #dd5862;
+}
+.header-a:active
+{
+    color: #dd5862;
+}
+.login
+{
+    float: right;
+    font-size: 12px;
+}
+.login a
+{
+    text-decoration: none;
+    color: #000;
+}
+.login a:hover
+{
+    color: #dd5862;
+}
+
+/*单曲一*/
+#body
+{
+    width: 960px;
+    height: 2300px;
+    margin:auto;
+}
+#first
+{
+    height: 385px;
+    margin-top: 50px;
+}
+.first-img
+{
+    float: left;
+    width: 480px;
+    height: 340px;
+}
+.first-img img
+{
+    border-radius: 5px;
+}
+.first-words
+{
+    float: right;
+    width: 440px;
+}
+.first-words-d1
+{
+    margin-top: 30px;
+    font-size: 22px;
+}
+.first-word-d2
+{
+    font-size: 16px;
+    color: #838383;
+}
+.first-word-d3
+{
+    margin-top: 30px;
+    font-size: 14px;
+    line-height: 20px;
+}
+.first-word-d4
+{
+    float: right;
+    color: #838383;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.create-1-body-top
+{
+    width: 13px;
+    height: 15px;
+    background: url("../img/icon-musician.png") 0 -156px;
+    position: absolute;
+}
+.create-1-body-bottom
+{
+    width: 13px;
+    height: 15px;
+    background: url("../img/icon-musician.png") -100px -156px;
+    position: absolute;
+}
+
+.icon-1
+{
+    width: 16px;
+    height: 16px;
+    background: url("../img/icon-musician.png") -100px -20px;
+    position: absolute;
+}
+/*左侧单曲一*/
+#left-single
+{
+    width: 590px;
+    float: left;
+}
+.one
+{
+    height: 250px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #E5E5E5;
+}
+.one-img
+{
+    float: left;
+    width: 220px;
+    margin-right: 20px;
+}
+.one-img img
+{
+    width: 100%;
+    border-radius: 5px;
+}
+.one-word
+{
+    float: right;
+    width: 345px;
+}
+.one-words-d1
+{
+    font-size: 18px;
+}
+.one-word-d2
+{
+    font-size: 12px;
+    color: #838383;
+}
+.one-word-d3
+{
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 17px;
+}
+.one-word-d4
+{
+    float: right;
+    color: #838383;
+    font-size: 14px;
+    margin-top: 20px;
+}
+/*右侧推荐栏*/
+
+/*底部信息栏*/
+.bottom
+{
+    background-color: #222;
+    height: 280px;
+}
+.bottom-content
+{
+    width: 960px;
+    margin:0 auto;
+    padding-top: 20px;
+}
+.about
+{
+    width:380px;
+    color: white;
+    float: left;
+}
+.about-content
+{
+    font-size: 14px;
+}
+.APP
+{
+    float: left;
+    color: white;
+    width:305px;
+}
+.app-content
+{
+    font-size: 14px;
+}
+.app-font
+{
+    padding-left: 25px;
+}
+.app-iphone
+{
+    width: 20px;
+    height: 20px;
+    background: url("../img/icon-common.png") 0 -90px;
+    position: absolute;
+}
+.app-android
+{
+    width: 20px;
+    height: 20px;
+    background: url("../img/icon-common.png") 0 -30px;
+    position: absolute;
+}
+.app-wp
+{
+    width: 20px;
+    height: 20px;
+    background: url("../img/icon-common.png") 0 -60px;
+    position: absolute;
+}
+.sns
+{
+    color: white;
+    float: right;
+}
+.sns-title
+{
+    margin-right: 0px;
+}
+.sns-qq
+{
+    width: 20px;
+    height: 20px;
+    background: url("../img/icon-common.png") -110px -270px;
+    position: absolute;
+    right: 300px;
+}
+.sns-wechat
+{
+    width: 20px;
+    height: 20px;
+    background: url("../img/icon-common.png") 0 -270px;
+    position: absolute;
+    right: 270px;
+}
+.sns-weibo
+{
+    width: 20px;
+    height: 20px;
+    background: url("../img/icon-common.png") 0 -210px;
+    position: absolute;
+    right: 240px;
+}
+.sns-douban
+{
+    width: 20px;
+    height: 20px;
+    background: url("../img/icon-common.png") 0 -240px;
+    position: absolute;
+    right: 205px;
+}
+.sns-content
+{
+    font-size:14px;
+}
+.sns-icon
+{
+    width:136px;
+    height:20px;
+    background: url("../img/icon-common.png");
+    position: absolute;
+    right:205px;
+}
+.bottom-a:link
+{
+    text-decoration: none;
+    color: white;
+}
+.bottom-a:visited
+{
+    color: white;
+}
+.bottom-a:hover
+{
+    color: #dd5862;
+}
+.bottom-a:active
+{
+    color: #dd5862;
+}
+

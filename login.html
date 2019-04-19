@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>落网-独立音乐推荐</title>
+    <link href="css/login.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="css/pass.css" />
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/login.js"></script>
+
+</head>
+<body>
+    <!--导航栏-->
+    <div class="header">
+        <div class="header-content">
+            <a href="index.html" class="logo">
+                <span class="icon-logo"></span>
+            </a>
+            <div class="content">
+                <ul>
+                    <li class="navi"><a class="header-a" href="music1.html">期刊</a></li>
+                    <li class="navi"><a class="header-a" href="single.html">单曲</a></li>
+                    <li class="navi"><a class="header-a" href="essays.html">专栏</a></li>
+                    <li class="navi"><a class="header-a" href="huodong.html">活动</a></li>
+                    <li class="navi"><a class="header-a" href="app.html">APP</a></li>
+                </ul>
+            </div>
+            <div class="login">
+                <a href="login.html">
+                    <span>注册/登录</span>
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+	<!--登录-->
+	<div class="page">
+		<div class="loginwarrp">
+			<div class="logo">登陆</div>
+			<div class="login_form">
+				<form id="Login" name="Login" method="post" onsubmit="" action="">
+					<li class="login-item">
+						<span>用户名：</span>
+						<input type="text" id="username" name="UserName" class="login_input" >
+						<span id="count-msg" class="error"></span>
+					</li>
+					<li class="login-item">
+						<span>密　码：</span>
+						<input type="password" id="password" name="password" class="login_input" >
+						<span id="password-msg" class="error"></span>
+					</li>
+					<li class="login-sub">
+						<input type="submit" name="Submit" value="登录" />
+						<input type="reset" name="Reset" value="重置" />
+					</li>
+				</form>
+			</div>
+		</div>
+	</div>
+
+    <!--底部-->
+    <div class="bottom">
+        <div class="bottom-content">
+            <div class="about">
+                <h4 class="about-title">关于</h4>
+                <a class="bottom-a" href="#">
+                    <p class="about-content">关于落网</p>
+                </a>
+                <a class="bottom-a" href="#">
+                    <p class="about-content">加入我们</p>
+                </a>
+                <a class="bottom-a" href="#">
+                    <p class="about-content">联系合作</p>
+                </a>
+                <a class="bottom-a" href="#">
+                    <p class="about-content">反馈意见</p>
+                </a>
+                <a class="bottom-a" href="#">
+                    <p class="about-content">友情链接</p>
+                </a>
+            </div>
+            <div class="APP">
+                <h4 class="app-title">APP</h4>
+                <p class="app-content">
+                    <span class="app-iphone"></span>
+                    <a class="bottom-a" href="app.html">
+                        <span class="app-font">for iPhone</span>
+                    </a>
+                </p>
+                <p class="app-content">
+                    <span class="app-android"></span>
+                    <a class="bottom-a" href="app.html">
+                        <span class="app-font">for Android</span>
+                    </a>
+                </p>
+                <p class="app-content">
+                    <span class="app-wp"></span>
+                    <a class="bottom-a" href="app.html">
+                        <span class="app-font">for Windows Phone</span>
+                    </a>
+                </p>
+            </div>
+            <div class="sns">
+                <h4 class="sns-title">关注落网</h4>
+                <div>
+                    <div class="sns-qq"></div>
+                    <div class="sns-wechat"></div>
+                    <div class="sns-weibo"></div>
+                    <div class="sns-douban"></div>
+                </div>
+                <br><br>
+                <div class="sns-content">
+                    © 2017 落网
+                </div><br>
+                <div>
+                    <span class="sns-icon"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

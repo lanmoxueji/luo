@@ -1,0 +1,86 @@
+body
+{
+	font-family: 13px/22px Verdana,'微软雅黑','Microsoft YaHei',Helvetica,Arial;
+	color: rgb(45, 45, 45);
+	background-color: #f9f8f8;
+}
+a{
+	text-decoration: none;
+	color: #000000;
+}
+#content_app
+{
+	margin: 0 auto;
+	width: 800px;
+	height: 552px;
+	padding-top: 50px;
+}
+.app_rel
+{
+	width: 750px;
+	height: 500px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.app_show
+{
+	width: 270px;
+	height:500px;
+	float: left;
+	background-image: url(../img/phone_app.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.app_font
+{
+	width: 350px;
+	height:500px;
+	float: right;
+}
+.flash
+{
+	width: 203px;
+	height: 356px;
+	background-color: seagreen;
+ 	margin: 75px 0px 0px 31px;
+}
+.app_font_top
+{
+	width: 350px;
+	height: 137px;
+	margin-top: 76px;
+}
+.app_font_button
+{
+	width: 350px;
+	height: 190px;
+	margin-top: 60px;
+}
+.weixin
+{
+	width: 100px;
+	height: 137px;
+	float: left;
+	margin: 20px 0px 0px 10px;
+}
+.app_xiazai
+{
+	width: 150px;
+	height: 195px;
+	float: right;
+}
+.weixin span 
+{
+	margin-left: 10px;
+	font-size: 13px;
+}
+.app_apple
+{
+	width: 130px;
+	height: 39px;
+	background-color: #e4dfdf;
+	border: 2px solid rgb(211, 197, 197);
+	border-radius: 40px;
+	padding: 9px 0px 0px 15px;
+	margin-bottom: 13px;
+}

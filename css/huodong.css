@@ -1,0 +1,143 @@
+body {
+	color: rgb(45, 45, 45);
+	font: 13px/22px Verdana, 微软雅黑, "Microsoft YaHei", Helvetica, Arial;
+	;
+}
+
+#clearfix {
+	width: 950px;
+	height: 2330px;
+	/*background: salmon;*/
+	margin: 0px auto;
+}
+
+.article-sm {
+	width: 570px;
+	height: 2330px;
+	/*background: darkcyan;*/
+	float: left;
+}
+
+.list {
+	width: 570px;
+	height: 160px;
+	padding: 38px 0px 38px 0px;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.list_img {
+	width: 125px;
+	height: 175px;
+	border-radius: 4px;
+	margin-right: 20px;
+}
+
+.list_a {
+	font-size: 13pt;
+	text-decoration: none;
+	color: black;
+}
+
+.list span {
+	font-size: 9pt;
+}
+
+#contenr_footer {
+	width: 513px;
+	height: 32px;
+	background: white;
+	margin-left: 110px;
+	line-height: 33px;
+	margin-top: 60px;
+	font-size: 13px;
+}
+
+#contenr_footer a {
+	margin-left: 2px;
+	list-style: none;
+	text-decoration: none;
+}
+
+#contenr_footer a {
+	color: rgb(65, 61, 61);
+	text-decoration: none;
+}
+
+#contenr_footer a:hover {
+	color: rgb(65, 61, 61);
+	background-color: #dd5862;
+}
+
+#page1 {
+	width: 50px;
+	height: 50px;
+	border-radius: 2px;
+	padding: 4px 10px 5px 10px;
+	border-radius: 2px;
+	background: #dd5862;
+}
+
+.page {
+	width: 50px;
+	height: 50px;
+	border-radius: 2px;
+	padding: 4px 10px 5px 10px;
+	border-radius: 2px;
+	background: #E5E5E5;
+}
+
+.page_top,
+.page_buttom {
+	padding: 4px 5px 4px 5px;
+	border-radius: 2px;
+	background: #E5E5E5;
+}
+#aside{
+	position:relative;
+	width: 250px;
+	height: 450px;
+	float: right;
+	margin-top: 50px;
+	/*left: 860px;*/
+	/*margin-right: 40px;*/
+	border-bottom: 1px solid #e5e5e5;
+}
+.remend{
+	margin-top: 10px;
+}
+
+.remenimg{
+	width: 45px;
+}
+.remena{
+	text-decoration: none;
+	color: black;
+	font-size: 9pt;
+}
+#remendi{
+	background: #F8F8F8;
+	display: block;
+	border-radius: 4px;
+	line-height: 57px;
+	height: 57px;
+	width: 100%;
+	text-align: center;
+}
+.top1{
+	background-color: #F8F8F8;
+	margin-top: 50px;
+	width: 570px;
+	height: 60px;
+	font-size: 9pt;
+}
+.top1-left{
+	width: 120px;
+	height: 37px;
+	float: left;
+	padding: 20px 0px 4px 10px;
+	border-right: 1px solid #F2F2F2;
+}
+.top1-right{
+	float: right;
+	padding: 10px 155px 0px 11px;
+}
